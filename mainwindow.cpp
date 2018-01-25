@@ -59,24 +59,25 @@ int MainWindow::sendEmail(){
     text.setText(ui->te_emailContent->document()->toPlainText());
     message.addPart(&text);
 
+    MimeAttachment attachment1(new QFile(ui->le_emailAttach1->text()));
+    MimeAttachment attachment2(new QFile(ui->le_emailAttach2->text()));
+    MimeAttachment attachment3(new QFile(ui->le_emailAttach3->text()));
+    MimeAttachment attachment4(new QFile(ui->le_emailAttach4->text()));
+
     //attachments
     if(ui->le_emailAttach1->text() != NULL){
-        MimeAttachment attachment1(new QFile(ui->le_emailAttach1->text()));
-        message.addPart(&attachment1);
+       message.addPart(&attachment1);
     }
 
-    if(ui->le_emailAttach2->text() != NULL){
-        MimeAttachment attachment2(new QFile(ui->le_emailAttach2->text()));
+    if(ui->le_emailAttach2->text() != NULL){        
         message.addPart(&attachment2);
     }
 
-    if(ui->le_emailAttach3->text() != NULL){
-        MimeAttachment attachment3(new QFile(ui->le_emailAttach3->text()));
+    if(ui->le_emailAttach3->text() != NULL){        
         message.addPart(&attachment3);
     }
 
-    if(ui->le_emailAttach4->text() != NULL){
-        MimeAttachment attachment4(new QFile(ui->le_emailAttach4->text()));
+    if(ui->le_emailAttach4->text() != NULL){        
         message.addPart(&attachment4);
     }
 
@@ -91,10 +92,7 @@ int MainWindow::sendEmail(){
          return -2;
      }
 
-     if (!smtp.sendMail(message)) {
-         QMessageBox::information(this,"Faild to send","Failed to send mail!");
-         return -3;
-     }
+     smtp.sendMail(message);
 
      QMessageBox::information(this,"Email Send","operation completed succesfully!");
 
