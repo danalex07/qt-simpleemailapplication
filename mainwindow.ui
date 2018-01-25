@@ -60,7 +60,7 @@
       <item row="0" column="0">
        <widget class="QLineEdit" name="le_emailSubject">
         <property name="text">
-         <string/>
+         <string>test</string>
         </property>
         <property name="placeholderText">
          <string>subject</string>
@@ -127,7 +127,7 @@
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;test&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="placeholderText">
          <string>content</string>
@@ -159,7 +159,7 @@ p, li { white-space: pre-wrap; }
        <item row="0" column="0">
         <widget class="QLineEdit" name="le_sendersAdd">
          <property name="text">
-          <string/>
+          <string>danalex0726@gmail.com</string>
          </property>
          <property name="placeholderText">
           <string>sender addres</string>
@@ -169,7 +169,7 @@ p, li { white-space: pre-wrap; }
        <item row="0" column="1">
         <widget class="QLineEdit" name="le_sendersName">
          <property name="text">
-          <string/>
+          <string>daniel</string>
          </property>
          <property name="placeholderText">
           <string>sender's name</string>
@@ -179,7 +179,7 @@ p, li { white-space: pre-wrap; }
        <item row="3" column="0" colspan="2">
         <widget class="QLineEdit" name="le_bccAdd">
          <property name="text">
-          <string/>
+          <string>danalex_07@hotmail.com</string>
          </property>
          <property name="placeholderText">
           <string>BCC</string>
@@ -189,7 +189,7 @@ p, li { white-space: pre-wrap; }
        <item row="2" column="0" colspan="2">
         <widget class="QLineEdit" name="le_ccAdd">
          <property name="text">
-          <string/>
+          <string>danalex_07@hotmail.com</string>
          </property>
          <property name="placeholderText">
           <string>CC</string>
@@ -199,7 +199,7 @@ p, li { white-space: pre-wrap; }
        <item row="1" column="0" colspan="2">
         <widget class="QLineEdit" name="le_toAdd">
          <property name="text">
-          <string/>
+          <string>danalex_07@hotmail.com</string>
          </property>
          <property name="placeholderText">
           <string>To</string>
@@ -218,7 +218,7 @@ p, li { white-space: pre-wrap; }
        <item>
         <widget class="QLineEdit" name="le_emailUser">
          <property name="text">
-          <string/>
+          <string>danalex0726@gmail.com</string>
          </property>
          <property name="placeholderText">
           <string>username</string>
@@ -228,7 +228,7 @@ p, li { white-space: pre-wrap; }
        <item>
         <widget class="QLineEdit" name="le_emailPass">
          <property name="text">
-          <string/>
+          <string>uebdimpnvktmvabl</string>
          </property>
          <property name="placeholderText">
           <string>password</string>
@@ -241,7 +241,7 @@ p, li { white-space: pre-wrap; }
           <string>00000</string>
          </property>
          <property name="text">
-          <string/>
+          <string>465</string>
          </property>
          <property name="placeholderText">
           <string>port</string>
@@ -251,7 +251,7 @@ p, li { white-space: pre-wrap; }
        <item>
         <widget class="QLineEdit" name="le_emailSmtp">
          <property name="text">
-          <string/>
+          <string>smtp.gmail.com</string>
          </property>
          <property name="placeholderText">
           <string>smtp</string>
@@ -284,6 +284,29 @@ p, li { white-space: pre-wrap; }
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>le_emailUser</tabstop>
+  <tabstop>le_emailPass</tabstop>
+  <tabstop>le_emailPort</tabstop>
+  <tabstop>le_emailSmtp</tabstop>
+  <tabstop>le_sendersAdd</tabstop>
+  <tabstop>le_sendersName</tabstop>
+  <tabstop>le_toAdd</tabstop>
+  <tabstop>le_ccAdd</tabstop>
+  <tabstop>le_bccAdd</tabstop>
+  <tabstop>le_emailSubject</tabstop>
+  <tabstop>te_emailContent</tabstop>
+  <tabstop>tb_getAttach1</tabstop>
+  <tabstop>tb_getAttach2</tabstop>
+  <tabstop>tb_getAttach3</tabstop>
+  <tabstop>tb_getAttach4</tabstop>
+  <tabstop>pb_sendEmail</tabstop>
+  <tabstop>pb_clear</tabstop>
+  <tabstop>le_emailAttach2</tabstop>
+  <tabstop>le_emailAttach4</tabstop>
+  <tabstop>le_emailAttach1</tabstop>
+  <tabstop>le_emailAttach3</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
