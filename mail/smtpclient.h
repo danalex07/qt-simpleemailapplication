@@ -22,7 +22,7 @@
 #include <QObject>
 #include <QtNetwork/QSslSocket>
 
-#include "mimemessage.h"
+#include "mail/mimemessage.h"
 
 class SmtpClient : public QObject
 {

@@ -19,7 +19,7 @@
 #ifndef MIMEINLINEFILE_H
 #define MIMEINLINEFILE_H
 
-#include "mimefile.h"
+#include "mail/mimefile.h"
 
 class MimeInlineFile : public MimeFile
 {

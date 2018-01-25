@@ -19,7 +19,7 @@
 #ifndef MIMEFILE_H
 #define MIMEFILE_H
 
-#include "mimepart.h"
+#include "mail/mimepart.h"
 #include <QFile>
 
 class MimeFile : public MimePart

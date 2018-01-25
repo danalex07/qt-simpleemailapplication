@@ -19,7 +19,7 @@
 #ifndef MIMEHTML_H
 #define MIMEHTML_H
 
-#include "mimetext.h"
+#include "mail/mimetext.h"
 
 class MimeHtml : public MimeText
 {

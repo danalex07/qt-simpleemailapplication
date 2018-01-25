@@ -19,7 +19,7 @@
 #ifndef MIMEMULTIPART_H
 #define MIMEMULTIPART_H
 
-#include "mimepart.h"
+#include "mail/mimepart.h"
 
 class MimeMultiPart : public MimePart
 {

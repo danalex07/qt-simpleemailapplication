@@ -20,8 +20,8 @@
 #define MIMEATTACHMENT_H
 
 #include <QFile>
-#include "mimepart.h"
-#include "mimefile.h"
+#include "mail/mimepart.h"
+#include "mail/mimefile.h"
 
 
 class MimeAttachment : public MimeFile

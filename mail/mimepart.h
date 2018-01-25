@@ -20,7 +20,7 @@
 #define MIMEPART_H
 
 #include <QObject>
-#include "mimecontentformatter.h"
+#include "mail/mimecontentformatter.h"
 
 class MimePart : public QObject
 {

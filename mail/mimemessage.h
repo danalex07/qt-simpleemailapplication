@@ -19,9 +19,9 @@
 #ifndef MIMEMESSAGE_H
 #define MIMEMESSAGE_H
 
-#include "mimepart.h"
-#include "mimemultipart.h"
-#include "emailaddress.h"
+#include "mail/mimepart.h"
+#include "mail/mimemultipart.h"
+#include "mail/emailaddress.h"
 #include <QList>
 
 class MimeMessage : public QObject
